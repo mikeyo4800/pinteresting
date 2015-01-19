@@ -30,4 +30,7 @@ Pinteresting::Application.configure do
 
 # Line 32 used for heroku
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
+  Paperclip.options[:command_path] = 'C:\Program files/Image Magick-6.9.0-Q16/convert'
+  Paperclip.options[:command_path] = 'C:\Program Files (x86)\GnuWin32\bin'
 end
